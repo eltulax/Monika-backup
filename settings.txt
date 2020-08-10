@@ -1,0 +1,4 @@
+/home/user/.renpy/Monika After Story # path to the folder with your persistent file
+/home/user/backups # path to the folder where you want your backups
+7 # how often you want your backup in days
+1 # 1 = turns autostart on, 0 = turns autostart off
