@@ -29,3 +29,6 @@ On other operating sysetms you should be able to autostart it manually with cron
 
 Please delete all comments made in the settings.txt, or the script will not function.
 Also the settings.txt must be in the same folder than the python script.
+
+Step 3:
+Start the Monika-backup.py with python3
