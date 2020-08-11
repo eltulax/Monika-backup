@@ -31,5 +31,5 @@ Please delete all comments made in the settings.txt, or the script will not func
 Also the settings.txt must be in the same folder than the python script.
 
 Step 3:
-Start the Monika-backup.py with python3
+Start the Monika-backup.py with python3.
 If you have autostart activated and it works on your system, you do not need to ever manually start it again, it will just create your your backups, when you start your computer.
