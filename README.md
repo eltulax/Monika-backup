@@ -12,7 +12,7 @@ Instructions:
 To run the script you need to have python 3.6 or higher installed on your system!
 
 Step 1:
-Download the to files.
+Download the two files.
 
 Step 2:
 Edit the settings.txt.
