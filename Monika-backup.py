@@ -52,7 +52,7 @@ for filename in os.listdir(target_dir):
 
 
 
-#probably usless path checking
+#probably unnecessary path checking
 
 if target_dir.endswith("/") == False and system() != "Windows" :
     target_dir += "/" 
@@ -82,7 +82,6 @@ if autostart == 1 and system() == "Linux" and os.path.isfile(os.path.join(os.pat
 elif autostart == 1 and system() == "Windows":
     USER_NAME = getpass.getuser()
     file_path = os.path.dirname(os.path.realpath(__file__)) + "\\" + os.path.basename(os.path.realpath(__file__))
-    #bat_path = os.path.join(os.path.expanduser("C:"), "Users", USER_NAME, "AppData", "Roaming", "Microsoft", "Windows", "Start Menu", "Programs", "Startup", "open.bat")
     bat_path = r'C:\Users\%s\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup' % USER_NAME
     with open(bat_path + '\\' + "monika_backup.bat", "w+") as bat_file:
         bat_file.write(r'start "" %s' % file_path)
