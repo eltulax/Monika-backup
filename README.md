@@ -32,4 +32,10 @@ On Windows it should work fine, but you will see the terminal for a few seconds 
 
 Notifications will only work on Linux at the moment, because I had problems with the anti-virus of windows, when I tried to implement notifications with win10toast.
 
+Then save your settings, so that you do not have to fill out the program again.
+You can also just create a backup, but you must declare where your persistant folder and your backup folder is.
+
+Special Thanks to Sasoura to let me use his/her beautiful picture of Monika as an icon.
+Check him/her out on Twitter: https://twitter.com/Sasouraaaa
+
 
