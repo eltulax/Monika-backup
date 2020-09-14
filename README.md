@@ -30,7 +30,7 @@ When you do not know where the persistent folder is, here is a detailed instruct
 The automatic start of the programm will only work on linux when your system starts .desktop files in the ~/.config/autostart folder.
 On Windows it should work fine, but you will see the terminal for a few seconds on each start. 
 
-Notifications will only work on Linux at the moment, because I had problems with the anti-virus of windows, when I tried to implement notifications with win10toast.
+Notifications will only work on Linux with notifiy-send installed at the moment, because I had problems with the anti-virus of windows, when I tried to implement notifications with win10toast.
 
 Then save your settings, so that you do not have to fill out the program again.
 You can also just create a backup, but you must declare where your persistant folder and your backup folder is.
