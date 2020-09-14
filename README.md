@@ -9,27 +9,22 @@ Mod: https://www.monikaafterstory.com/
 
 Instructions:
 
-To run the script you need to have python 3.6 or higher installed on your system!
+To run the script you need to have python 3.6 or higher installed on your system, when you are on Linux!
+MacOs is not supported, I am sorry!
+
 
 Step 1:
-Download the two files.
+Download the release.
 
 Step 2:
-Edit the settings.txt.
-The first line should be your path to your folder, where the persistent file is located.
-When you do not know where this is, here is a detailed instruction: https://github.com/Monika-After-Story/MonikaModDev/wiki/FAQ#i-want-to-back-up-my-persistent
+start the config.exe or on Linux the config.py with python.
 
-The second line should be your path to your folder, where you want your backups.
+Fill out the program.
+When you do not know where the persistent folder is, here is a detailed instruction: https://github.com/Monika-After-Story/MonikaModDev/wiki/FAQ#i-want-to-back-up-my-persistent
 
-The third line is the frequency of the backup creation in days.
+The automatic start of the programm will only work on linux when your system starts .desktop files in the ~/.config/autostart folder.
+On Windows it should work fine, but you will see the terminal for a few seconds on each start. 
 
-The fourth line activates the autostart at 1 and disables it at 0.
-This works currently only on Windows and Ubuntu-based distributions.
-On other operating sysetms you should be able to autostart it manually with crontab 
+Notifications will only work on Linux at the moment, because I had problems with the anti-virus of windows, when I tried to implement notifications with win10toast.
 
-Please delete all comments made in the settings.txt, or the script will not function.
-Also the settings.txt must be in the same folder than the python script.
 
-Step 3:
-Start the Monika-backup.py with python3.
-If you have autostart activated and it works on your system, you do not need to ever manually start it again, it will just create your your backups, when you start your computer.
