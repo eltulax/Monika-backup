@@ -16,6 +16,11 @@ MacOs is not supported, I am sorry!
 Step 1:
 Download the release.
 
+
+![](images/preview.PNG)
+
+
+
 Step 2:
 start the config.exe or on Linux the config.py with python.
 
